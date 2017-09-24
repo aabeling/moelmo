@@ -1,4 +1,4 @@
-My first steps using opencv.
+# My first steps using opencv
 
 opencv has been installed on my ubuntu 16.04. with
 
@@ -8,3 +8,8 @@ opencv has been installed on my ubuntu 16.04. with
 Then it just ran fine with
 
      $ ./gradlew bootRun
+     
+     
+# References
+
+* http://docs.opencv.org/java/2.4.9/
