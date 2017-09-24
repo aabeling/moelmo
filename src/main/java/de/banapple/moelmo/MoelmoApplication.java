@@ -47,8 +47,8 @@ public class MoelmoApplication {
         // Create a face detector from the cascade file in the resources
         // directory.
         CascadeClassifier faceDetector = new CascadeClassifier(
-                getClass().getResource("/lbpcascade_frontalface.xml").getPath());
-        Mat image = Highgui.imread(getClass().getResource("/beatles.jpg").getPath());
+                getClass().getResource("/opencv/lbpcascade_frontalface.xml").getPath());
+        Mat image = Highgui.imread(getClass().getResource("/images/beatles.jpg").getPath());
 
         // Detect faces in the image.
         // MatOfRect is a special container class for Rect.
